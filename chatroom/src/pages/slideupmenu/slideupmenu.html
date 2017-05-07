@@ -7,18 +7,23 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Threads</ion-title>
+    <ion-tabs>
+      <ion-tab tabIcon="person" [root]="tab1">Chat</ion-tab>
+      <ion-tab tabIcon="people" [root]="tab2">Group</ion-tab>
+    </ion-tabs>
   </ion-navbar>
 
 </ion-header>
 <ion-content>
 
-
+</ion-content>
 <ion-footer>
   <ion-list>
     <ion-item-sliding>
       <ion-item>
-        Slide>>
+        Slide>> <ion-fab right bottom >
+        <button ion-fab mini color="primary"><ion-icon name="add"></ion-icon></button>
+      </ion-fab>
       </ion-item>
       <ion-item-options side="left">
         <button ion-button clear >Setting</button>
