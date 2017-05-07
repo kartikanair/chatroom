@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {Chats} from "../chats/chats";
 import {Group} from "../group/group";
-import {Contacts} from "../contacts/contacts";
+
 
 /**
  * Generated class for the Slideupmenu page.
@@ -25,11 +25,4 @@ export class Slideupmenu {
     this.tab1 = Chats;
     this.tab2 = Group;
   }
-
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad Slideupmenu');
-  }
-
 }
-
-
