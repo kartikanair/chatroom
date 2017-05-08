@@ -10,8 +10,6 @@ import {Chats} from "../pages/chats/chats";
 @NgModule({
   declarations: [
     MyApp,
-    Chats,
-    Group
   ],
   imports: [
     BrowserModule,
@@ -20,8 +18,6 @@ import {Chats} from "../pages/chats/chats";
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    Chats,
-    Group
   ],
   providers: [
     StatusBar,

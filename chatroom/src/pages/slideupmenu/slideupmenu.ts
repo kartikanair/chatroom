@@ -22,7 +22,17 @@ export class Slideupmenu {
   tab2: any;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.tab1 = Chats;
-    this.tab2 = Group;
+    this.tab1 = 'Chats';
+    this.tab2 = 'Group';
   }
+  gotogroup()
+  {
+    this.navCtrl.push('Group');
+
+  }
+  gotochat()
+  {
+  this.navCtrl.push('Chats');
+  }
+
 }
