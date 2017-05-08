@@ -7,7 +7,8 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>chats</ion-title>
+    <button ion-button clear >Chat</button>
+    <button (click)="gotogroup()" ion-button clear >Group</button>
   </ion-navbar>
 
 </ion-header>
@@ -141,3 +142,10 @@
 
   </ion-list>
 </ion-content>
+<ion-footer>
+<ion-item>
+        <ion-fab right bottom>
+        <button (click)="contact()" ion-fab mini color="primary"><ion-icon name="add"></ion-icon></button>
+      </ion-fab>
+</ion-item>
+</ion-footer>

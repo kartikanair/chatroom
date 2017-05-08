@@ -16,6 +16,15 @@ export class Group {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
+  gotogroup()
+  {
+    this.navCtrl.push('Group');
+
+  }
+  gotochat()
+  {
+    this.navCtrl.push('Chats');
+  }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad Group');

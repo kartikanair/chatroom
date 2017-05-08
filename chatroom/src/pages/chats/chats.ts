@@ -15,8 +15,18 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class Chats {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+
+  }
+  gotogroup()
+  {
+    this.navCtrl.push('Group');
+
   }
 
+ contact()
+ {
+   this.navCtrl.push('Contacts');
+ }
   ionViewDidLoad() {
     console.log('ionViewDidLoad Chats');
   }
